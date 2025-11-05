@@ -6,6 +6,7 @@ type Vanta interface {
 	PeopleService
 	MonitoredComputersService
 	VulnerabilitiesService
+	ResourcesService
 }
 
 type PeopleService interface {
@@ -20,4 +21,10 @@ type MonitoredComputersService interface {
 
 type VulnerabilitiesService interface {
 	ListVulnerabilities(ctx context.Context, opts ...ListVulnerabilitiesOption) (*ListVulnerabilitiesOutput, error)
+}
+
+type ResourcesService interface {
+	ListResources(ctx context.Context, opts ...ListResourcesOption) (*ListResourcesOutput, error)
+	GetResourceByID(ctx context.Context, id string) (*Resource, error)
+	UpdateResource(ctx context.Context, id string, input UpdateResourceInput) error
 }
