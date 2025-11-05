@@ -1,9 +1,9 @@
 # vanta-sdk-go
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/adrianosela/vanta-sdk-go)](https://goreportcard.com/report/github.com/adrianosela/vanta-sdk-go)
-[![Documentation](https://godoc.org/github.com/adrianosela/vanta-sdk-go?status.svg)](https://godoc.org/github.com/adrianosela/vanta-sdk-go)
-[![GitHub issues](https://img.shields.io/github/issues/adrianosela/vanta-sdk-go.svg)](https://github.com/adrianosela/vanta-sdk-go/issues)
-[![license](https://img.shields.io/github/license/adrianosela/vanta-sdk-go.svg)](https://github.com/adrianosela/vanta-sdk-go/blob/master/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/leonardobiffi/vanta-sdk-go)](https://goreportcard.com/report/github.com/leonardobiffi/vanta-sdk-go)
+[![Documentation](https://godoc.org/github.com/leonardobiffi/vanta-sdk-go?status.svg)](https://godoc.org/github.com/leonardobiffi/vanta-sdk-go)
+[![GitHub issues](https://img.shields.io/github/issues/leonardobiffi/vanta-sdk-go.svg)](https://github.com/leonardobiffi/vanta-sdk-go/issues)
+[![license](https://img.shields.io/github/license/leonardobiffi/vanta-sdk-go.svg)](https://github.com/leonardobiffi/vanta-sdk-go/blob/master/LICENSE)
 
 Unofficial Vanta API Client for Go.
 

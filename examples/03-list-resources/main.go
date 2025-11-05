@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/adrianosela/vanta-sdk-go"
+	"github.com/leonardobiffi/vanta-sdk-go"
 )
 
 func main() {

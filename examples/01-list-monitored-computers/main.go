@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/adrianosela/vanta-sdk-go"
+	"github.com/leonardobiffi/vanta-sdk-go"
 )
 
 func main() {
@@ -23,7 +23,7 @@ func main() {
 
 	listMonitoredComputersOutput, err := v.ListMonitoredComputers(ctx)
 	if err != nil {
-		log.Fatal("failed to list monitored computers with vanta sdk: %v", err)
+		log.Fatal("failed to list monitored computers with vanta sdk", err)
 	}
 
 	for _, monitoredComputer := range listMonitoredComputersOutput.Results.Data {

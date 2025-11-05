@@ -6,7 +6,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/adrianosela/vanta-sdk-go"
+	"github.com/leonardobiffi/vanta-sdk-go"
 )
 
 func main() {
@@ -23,7 +23,7 @@ func main() {
 
 	listPeopleOutput, err := v.ListPeople(ctx)
 	if err != nil {
-		log.Fatal("failed to list people with vanta sdk: %v", err)
+		log.Fatal("failed to list people with vanta sdk", err)
 	}
 
 	for _, person := range listPeopleOutput.Results.Data {

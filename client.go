@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/adrianosela/vanta-sdk-go/utils/tokenstore"
+	"github.com/leonardobiffi/vanta-sdk-go/utils/tokenstore"
 )
 
 const (
